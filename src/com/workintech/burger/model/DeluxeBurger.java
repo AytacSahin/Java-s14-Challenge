@@ -2,7 +2,7 @@ package com.workintech.burger.model;
 
 public class DeluxeBurger extends Hamburger {
     public DeluxeBurger() {
-        super("Deluxe Burger", 19.1, "Double Sandwich");
+        super("Deluxe Burger", 19.1, BreadRollType.DOUBLE_SANDWICH);
         this.meat = "Double";
     }
 

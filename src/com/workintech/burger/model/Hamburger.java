@@ -4,7 +4,7 @@ public class Hamburger {
     protected String name;
     protected String meat;
     protected double price;
-    protected String breadRollType;
+    protected BreadRollType breadRollType;
 
     // ek malzemeler için:
 
@@ -17,7 +17,7 @@ public class Hamburger {
     protected String addition4Name;
     protected double addition4Price;
 
-    public Hamburger(String name, double price, String breadRollType) {
+    public Hamburger(String name, double price, BreadRollType breadRollType) {
         this.name = name;
         this.meat = "Normal";
         this.price = price;

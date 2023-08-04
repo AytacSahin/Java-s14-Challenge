@@ -6,7 +6,7 @@ public class HealthyBurger extends Hamburger {
     private String healthyExtra2Name;
     private double healthyExtra2Price;
 
-    public HealthyBurger(String name, double price, String breadRollType) {
+    public HealthyBurger(String name, double price, BreadRollType breadRollType) {
         super(name, price, breadRollType);
         this.meat = "Tofu";
     }
