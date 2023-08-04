@@ -1,0 +1,19 @@
+package com.workintech.burger.main;
+
+import com.workintech.burger.model.DeluxeBurger;
+import com.workintech.burger.model.Hamburger;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("******************************************************");
+        Hamburger hamburger = new Hamburger("Basic",3.56, "Wrap");
+        hamburger.addHamburgerAddition1("Tomato", 0.27);
+        hamburger.addHamburgerAddition2("Lettuce", 0.75);
+        hamburger.addHamburgerAddition3("Cheese", 1.13);
+        hamburger.itemizeHamburger();
+        System.out.println("******************************************************");
+        DeluxeBurger db = new DeluxeBurger();
+        db.addHamburgerAddition3("Should not do this", 50.53);
+        db.itemizeHamburger();
+    }
+}
