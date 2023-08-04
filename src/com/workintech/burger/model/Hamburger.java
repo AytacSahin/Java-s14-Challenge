@@ -1,21 +1,21 @@
 package com.workintech.burger.model;
 
 public class Hamburger {
-    private String name;
+    protected String name;
     protected String meat;
-    private double price;
-    private String breadRollType;
+    protected double price;
+    protected String breadRollType;
 
     // ek malzemeler için:
 
-    private String addition1Name;
-    private double addition1Price;
-    private String addition2Name;
-    private double addition2Price;
-    private String addition3Name;
-    private double addition3Price;
-    private String addition4Name;
-    private double addition4Price;
+    protected String addition1Name;
+    protected double addition1Price;
+    protected String addition2Name;
+    protected double addition2Price;
+    protected String addition3Name;
+    protected double addition3Price;
+    protected String addition4Name;
+    protected double addition4Price;
 
     public Hamburger(String name, double price, String breadRollType) {
         this.name = name;
